@@ -1,0 +1,103 @@
+/* @import 'https://use.fontawesome.com/releases/v5.10.2/css/all.css'; */
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@font-face {
+    font-family: 'Ranchers';
+    src: url('./fonts/Ranchers-Regular.woff2') format('woff2'), url('./fonts/Ranchers-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('./fonts/OpenSans-Regular.woff2') format('woff2'), url('./fonts/OpenSans-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-color: aquamarine;
+}
+
+p {
+    font-size: 30px;
+}
+
+.a {
+    font-family: 'Baloo Tammudu 2', Arial, cursive;
+    font-weight: 800;
+}
+
+.b {
+    font-family: Ranchers, 'Times New Roman', Times, serif;
+}
+
+.c, .btn {
+    font-family: 'Open Sans', 'Arial Narrow', Arial, sans-serif;
+}
+
+.d {
+    font-family: Roboto, 'Arial Narrow', Arial, sans-serif;
+}
+
+.e {
+    font-family: Pacifico, cursive;
+    ;
+}
+
+.buttons-container {
+    background: #EEEEEE;
+    padding: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.btn {
+    border-radius: 24px;
+    padding: 8px 15px;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn:hover {
+    outline: none;
+}
+
+.normal-btn {
+    border: 2px solid rgb(24, 19, 19);
+}
+
+.normal-btn:last-child:hover {
+    cursor: pointer;
+    background-color: white;
+    border: 2px solid #006500;
+    color: #006500;
+}
+
+.filled-btn, .icon-btn {
+    background: #333333;
+    color: white;
+    border: none;
+}
+
+.filled-btn:last-child:hover, .icon-btn:last-child:hover {
+    cursor: pointer;
+    background: #006500;
+}
+
+.icon-btn i {
+    margin-right: 5px;
+}
