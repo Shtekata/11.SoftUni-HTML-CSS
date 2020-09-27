@@ -1,0 +1,46 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+body {
+    margin: 50px;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 0.3) 0%, rgba(9, 9, 121, 0.3) 35%, rgba(0, 212, 255, 0.3) 100%), url('./picture.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.check::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f00c";
+}
+
+.star::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+}
+
+.mail::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0e0";
+}
+
+.twitter::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f099";
+}
+
+.linkedin::before {
+    font-family: "Font Awesome 5 Brands";
+    font-weight: 400;
+    content: "\f08c";
+}
+
+.icons {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+ul.icons li {
+    list-style: none;
+}

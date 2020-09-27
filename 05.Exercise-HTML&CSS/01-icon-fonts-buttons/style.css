@@ -1,0 +1,120 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+.buttons-wrapper {
+    margin: 50px;
+}
+
+.buttons-wrapper article {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    border-radius: 2px;
+    padding: 5px;
+    border: none;
+    color: white;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-green {
+    background: rgb(0, 128, 0);
+}
+
+.btn-yellow {
+    background: rgb(255, 140, 0);
+}
+
+.btn-test {
+    background: violet;
+}
+
+.icon::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    margin-right: 5px;
+}
+
+.btn-green::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    content: '\f005';
+}
+
+.btn-yellow::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 400;
+    content: "\f0e0";
+}
+
+.free::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    content: '\f197  \f5bb  \f0dc  \f4da  \f7c5  \f290  \f5c7  \f59b  \f259  \f007  \f1ea';
+}
+
+.free::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400;
+    content: '\f197  \f5bb  \f0dc  \f4da  \f7c5  \f290  \f5c7  \f59b  \f259  \f007  \f1ea';
+}
+
+.free2::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f197  \f5bb  \f0dc  \f4da  \f7c5  \f290  \f5c7  \f59b  \f259  \f007  \f1ea';
+}
+
+.free2::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    content: '\f197  \f5bb  \f0dc  \f4da  \f7c5  \f290  \f5c7  \f59b  \f259  \f007  \f1ea';
+}
+
+.brands::before {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    content: '\f36b  \f3f7  \f36b  \f1b7  \f2ab  \f40c';
+}
+
+.brands::after {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 400;
+    content: '\f36b  \f3f7  \f36b  \f1b7  \f2ab  \f40c';
+}
+
+.brands2::before {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    content: '\f36b  \f3f7  \f36b  \f1b7  \f2ab  \f40c';
+}
+
+.brands2::after {
+    font-family: 'Font Awesome 5 Brands';
+    font-weight: 900;
+    content: '\f36b  \f3f7  \f36b  \f1b7  \f2ab  \f40c';
+}
+
+.free::after, .free2::after, .brands::after, .brands2::after {
+    margin-left: 5px;
+}
+
+.fas {
+    margin-right: 5px;
+}
+
+.content::before {
+    display: inline-block;
+    position: relative;
+    content: 'Ala-Bala';
+    margin-right: 5px;
+    width: 90px;
+    height: 30px;
+    background: red;
+    border-radius: 50%;
+}
