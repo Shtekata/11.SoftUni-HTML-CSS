@@ -1,0 +1,35 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+ul {
+    background: #f0b27a;
+    padding: 20px;
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    padding: 0 20px;
+    font-size: 20px;
+}
+
+p {
+    width: 300px;
+    margin: 50px auto;
+}
+
+div, span {
+    width: 300px;
+    background: lightblue;
+    height: 200px;
+    border: 10px dotted red;
+    padding: 35px;
+    display: block;
+    border-radius: 35px;
+}
