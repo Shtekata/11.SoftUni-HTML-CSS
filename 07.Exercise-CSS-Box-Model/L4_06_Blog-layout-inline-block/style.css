@@ -1,0 +1,31 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 50px auto;
+    background: #F4F4F4;
+}
+
+img {
+    max-width: 100%;
+    ;
+}
+
+main, aside {
+    display: inline-block;
+    vertical-align: top;
+}
+
+main {
+    width: 65%;
+}
+
+aside {
+    width: 30%;
+}
+
+aside ul {
+    list-style: square;
+}

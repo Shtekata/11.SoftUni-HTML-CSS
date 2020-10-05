@@ -1,0 +1,29 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.navigation-inline-block-header {
+    border-bottom: 2px solid;
+}
+
+.navigation-inline-block-header-nav li {
+    display: inline-block;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.navigation-inline-block-header-nav a {
+    color: #69A549;
+    text-decoration: none;
+}
+
+.navigation-inline-block-header-title,
+.navigation-inline-block-header-nav {
+    display: inline-block;
+    vertical-align: middle;
+}

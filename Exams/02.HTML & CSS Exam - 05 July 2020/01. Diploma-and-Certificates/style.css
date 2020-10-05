@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Montserrat&display=swap');
+body {
+    margin: 50px 0;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.certificates {
+    background: #31638C;
+    color: #fff;
+    padding: 30px 65px;
+}
+
+.certificates-content, .certificates-images {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.certificates-content {
+    width: 60%;
+}
+
+.certificates-content::before {
+    content: '';
+    background: url('./images/dots.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 150px;
+    height: 130px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -70px;
+    margin-top: 140px;
+}
+
+.certificates-text-bottom {
+    font-weight: 100;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.certificates-images {
+    width: 38%;
+}
+
+.certificates-image {
+    display: inline-block;
+    width: 45%;
+}
+
+.certificates-image img {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+
+.certificates-image:nth-child(2)::after {
+    content: '';
+    background: url('./images/arrow.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    position: absolute;
+    margin-left: -205px;
+}
+
+.bold {
+    font-weight: bold;
+}
