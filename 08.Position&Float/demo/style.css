@@ -1,0 +1,41 @@
+img {
+    float: left;
+    margin: 10px;
+}
+
+article {
+    background-color: aqua;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.first-article {
+    height: 200px;
+}
+
+.second-article {
+    background-color: blueviolet;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    width: 200px;
+    z-index: 5;
+}
+
+.sticky {
+    position: sticky;
+    top: 250px;
+}
+
+.brown {
+    background-color: brown;
+}
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}

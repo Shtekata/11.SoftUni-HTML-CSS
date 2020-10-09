@@ -1,0 +1,64 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+div {
+    height: 100vh;
+    color: white;
+    /* text-align: center; */
+}
+
+div img {
+    box-shadow: 0px 0px 10px -1px rgba(0, 0, 0, 0.75);
+    position: relative;
+    /* left: -50%; */
+}
+
+div i {
+    position: relative;
+    top: -16px;
+    left: -34px;
+}
+
+div:nth-of-type(1) {
+    background: linear-gradient(90deg, rgba(24, 90, 160, 1) 7%, rgba(68, 210, 167, 1) 100%);
+    padding-top: 16%;
+}
+
+div:nth-of-type(2) {
+    background: linear-gradient(90deg, rgba(173, 50, 123, 1) 19%, rgba(215, 133, 20, 1) 100%);
+    padding-top: 1%;
+}
+
+.card {
+    display: block;
+    position: absolute;
+    padding-left: 35%;
+}
+
+/* .image-wrapper {
+    position: absolute;
+    left: 50%;
+}
+
+article:nth-of-type(1) .image-wrapper {
+    top: 50vh;
+}
+
+article:nth-of-type(1) .image-wrapper img {
+    top: -24vh;
+}
+
+article:nth-of-type(1) .image-wrapper i {
+    left: -58%;
+    top: -27vh;
+} */
