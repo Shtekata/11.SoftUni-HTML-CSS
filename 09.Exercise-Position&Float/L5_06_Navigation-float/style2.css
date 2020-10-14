@@ -1,0 +1,109 @@
+html {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    max-width: 75%;
+    margin: 5% 0 0 10%;
+    background-color: rgb(238, 238, 238);
+}
+
+main {
+    max-width: 73%;
+    display: inline-block;
+    margin-top: 18px;
+}
+
+#header {
+    border-bottom: 2px solid;
+}
+
+#header h1 {
+    text-transform: uppercase;
+    margin: 8px auto;
+    display: inline-block;
+}
+
+#header p {
+    margin: 0;
+    display: inline-block;
+}
+
+#header nav {
+    display: inline-block;
+    position: relative;
+    left: 642px;
+    bottom: 11px;
+}
+
+#header nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+#aside a, #header a {
+    color: rgb(0, 102, 0);
+    text-decoration: none;
+}
+
+#article-section img {
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    border: 2px solid;
+    box-shadow: 0px 0px 16px 1px rgba(0, 0, 0, 0.25);
+}
+
+#article-section blockquote {
+    float: right;
+    max-width: 41%;
+    margin-top: 0;
+    border-left: 4px solid #DDDDDD;
+    padding-left: 25px;
+    padding-bottom: 65px;
+    font-style: italic;
+}
+
+#article-section blockquote cite {
+    position: relative;
+    top: 33px;
+    left: 181px;
+}
+
+#article-section p:nth-of-type(5) {
+    clear: both;
+}
+
+#article-section blockquote, h1, h2, h3 {
+    font-family: Georgia, serif;
+}
+
+main h1, h2, h3 {
+    font-size: 1em/1.2;
+    font-weight: normal;
+}
+
+#article-section img:nth-of-type(1) {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+#article-section img:nth-of-type(2) {
+    float: left;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+#aside {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    left: 84px;
+    top: 20px;
+}

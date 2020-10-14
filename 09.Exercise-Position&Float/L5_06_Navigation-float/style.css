@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    padding: 50px;
+}
+
+header ul, header h1 {
+    margin: 0;
+}
+
+header h1 {
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+header nav li {
+    display: inline-block;
+    list-style: none;
+    padding: 0 10px;
+}
+
+header nav li a {
+    color: #407e46;
+    text-decoration: none;
+}
+
+header::after {
+    display: inline-block;
+    background-color: black;
+    width: 100%;
+    height: 2px;
+    content: '';
+}

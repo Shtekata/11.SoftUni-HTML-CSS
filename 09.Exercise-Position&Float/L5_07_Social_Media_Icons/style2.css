@@ -1,0 +1,50 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 150px;
+    padding: 0;
+    display: inline-block;
+}
+
+ul li {
+    list-style: none;
+    float: left;
+    font-size: 100px;
+    text-align: center;
+    margin: 27px;
+}
+
+ul li a {
+    color: black;
+    background: #EEE;
+    width: 174.4px;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+ul li a:hover {
+    cursor: pointer;
+}
+
+ul li:nth-of-type(1) a:hover {
+    color: #3B5998;
+}
+
+ul li:nth-of-type(2) a:hover {
+    color: #00ACED;
+}
+
+ul li:nth-of-type(3) a:hover {
+    color: #DD4B39;
+}
+
+ul li:nth-of-type(4) a:hover {
+    color: #007BB6;
+}
+
+ul li:nth-of-type(5) a:hover {
+    color: #517FA4;
+}
