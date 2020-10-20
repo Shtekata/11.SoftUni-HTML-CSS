@@ -1,0 +1,43 @@
+body {
+    margin: 50px;
+    font-family: Helvetica, sans-serif;
+}
+
+h3, p, aside {
+    border: 1px solid;
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+}
+
+.workweek, .weekdays {
+    display: flex;
+}
+
+aside {
+    flex-basis: 10%;
+}
+
+.weekdays h3, .weekdays aside {
+    border-top: none;
+}
+
+h3 {
+    border-right: none;
+    min-height: 4em;
+}
+
+.days {
+    flex-grow: 1;
+}
+
+.week {
+    display: flex;
+}
+
+.week p {
+    padding-bottom: 90px;
+    flex-grow: 1;
+    border-top: 0;
+    border-right: 0;
+}
