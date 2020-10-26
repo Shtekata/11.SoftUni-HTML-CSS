@@ -1,0 +1,29 @@
+body {
+    font-family: Helvetica, sans-serif;
+    background-color: #EEEEEE;
+}
+
+table {
+    margin: 100px auto;
+    width: 85%;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #FFFFFF;
+}
+
+table, th, td {
+    border: 1px solid #CCCCCC;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td {
+    padding: 10px;
+    ;
+}
+
+th {
+    background-color: #333333;
+    color: #FFFFFF;
+}

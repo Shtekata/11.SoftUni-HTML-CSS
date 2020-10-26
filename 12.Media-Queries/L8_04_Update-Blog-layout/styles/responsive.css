@@ -1,0 +1,26 @@
+@media all and (max-width: 576px) {
+    article.first img, article.third img, article.second blockquote {
+        float: none;
+    }
+}
+
+@media all and (max-width:768px) {
+    header, header nav ul {
+        flex-direction: column;
+    }
+    header nav::before {
+        content: 'X Menu';
+        display: block;
+        margin-bottom: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+    header nav ul {
+        margin: 0;
+        border-top: 2px solid;
+        border-radius: 0;
+    }
+    main {
+        flex-direction: column;
+    }
+}

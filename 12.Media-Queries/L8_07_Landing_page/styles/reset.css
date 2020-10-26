@@ -1,0 +1,21 @@
+html {
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 1.3em;
+}
+
+h1, h2 {
+    font-size: 28px;
+    font-weight: 500;
+}

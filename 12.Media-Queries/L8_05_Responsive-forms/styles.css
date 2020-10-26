@@ -1,0 +1,89 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+body {
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+section {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    width: 30%;
+    margin: 50px auto;
+    background-color: #F8F8F8;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #d4c6c6;
+}
+
+legend {
+    border: 1px solid #d4c6c6;
+    width: 30%;
+    padding: 6px 12px;
+    border-radius: 4px;
+    position: absolute;
+    top: -21px;
+    left: -1px;
+    background-color: #F8F8F8;
+}
+
+form {
+    margin-top: 15px;
+}
+
+form p {
+    font-weight: bold;
+    min-width: 27%;
+}
+
+form label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+input[type='text'], input[type='password'] {
+    border-radius: 4px;
+    border: 1px solid gray;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+input[type='submit'] {
+    color: white;
+    background-color: #2D2D2D;
+    border: none;
+    outline: none;
+    padding: 4px 14px;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+@media all and (max-width:992px) {
+    section {
+        width: 40%;
+    }
+}
+
+@media all and (max-width:768px) {
+    section {
+        width: 60%;
+    }
+    form label {
+        flex-direction: column;
+        align-items: unset;
+    }
+}
+
+@media all and (max-width:576px) {
+    section {
+        width: 80%;
+    }
+    form label {
+        flex-direction: column;
+        align-items: unset;
+    }
+}

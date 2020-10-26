@@ -1,0 +1,48 @@
+@media all and (min-width:1px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+@media all and (min-width:500px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media all and (min-width:600px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:600px) {
+    #first-section img, #third-section img {
+        float: none;
+    }
+    blockquote {
+        float: none;
+        max-width: 85%;
+        margin: 0 0 0 auto;
+    }
+}
+
+@media all and (min-width:800px) {
+    body {
+        font-size: 18px;
+        max-width: 90%;
+    }
+}
+
+@media all and (min-width:1300px) {
+    body {
+        font-size: 21px;
+        max-width: 85%;
+    }
+}
+
+@media all and (min-width:1800px) {
+    body {
+        font-size: 23px;
+    }
+}

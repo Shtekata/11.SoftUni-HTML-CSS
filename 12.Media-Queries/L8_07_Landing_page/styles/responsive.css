@@ -1,0 +1,59 @@
+@media all and (max-width:992px) {
+    body header {
+        width: 95%;
+    }
+    section.first {
+        width: 77%;
+    }
+    body footer {
+        width: 95%;
+    }
+}
+
+@media all and (max-width:768px) {
+    body header nav {
+        display: none;
+    }
+    body header .burg {
+        display: block;
+    }
+    body header div p {
+        margin: 0;
+        font-style: normal;
+        text-transform: uppercase;
+        font-size: 8px;
+    }
+    body header .burg::before {
+        font-family: 'Font Awesome 5 Free';
+        font-weight: 900;
+        content: '\f0c9';
+        margin-right: 5px;
+    }
+    section.third {
+        margin-bottom: 40px;
+    }
+    body footer {
+        flex-direction: column;
+    }
+    body footer article.second-art {
+        justify-content: flex-start;
+    }
+    body footer article.second-art article {
+        margin: 0;
+    }
+}
+
+@media all and (max-width:576px) {
+    body header {
+        width: 90%;
+    }
+    .third .input input {
+        height: 35px;
+    }
+    .third .input button {
+        padding: 10px;
+    }
+    .third .input {
+        width: 85%;
+    }
+}
