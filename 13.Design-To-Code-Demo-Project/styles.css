@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    color: #514D64;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+    border-radius: 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #9B5DC6;
+    color: white;
+    padding: 5px 14px;
+    box-shadow: 0px 0px 21px -11px rgba(0, 0, 0, 0.75);
+}
+
+.btn-outline {
+    color: #9C5FCD;
+    border: 2px solid #9C5FCD;
+    background-color: transparent;
+    padding: 10px 15px;
+    font-weight: 600;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 5%;
+    box-shadow: 0px 5px 15px -11px rgba(0, 0, 0, 0.75);
+    align-items: center;
+    background-color: white;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list-item {
+    list-style: none;
+    margin: 0 11px;
+    font-size: 14px;
+}
+
+/* @media all and (max-width:1200px) {
+    header {
+        flex-direction: column;
+    }
+} */
+
+@media all and (max-width:992px) {
+    header nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+    .nav-list-item {
+        margin: 5px;
+    }
+}
+
+.diplomas-and-certificates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+}
+
+.diplomas-and-certificates-content {
+    flex-basis: 58%;
+}
+
+.diplomas-and-certificates-content-title, .cpe-certificates-content-title, .career-center-content-title {
+    font-weight: 500;
+}
+
+.diplomas-and-certificates-content-note {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.diplomas-and-certificates-image-award {
+    background-color: #54546D;
+    position: absolute;
+    right: 0;
+    top: -120px;
+    padding: 10% 13%;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.diplomas-and-certificates-image-award img {
+    position: relative;
+    left: 155px;
+    top: 15px;
+    width: 130px;
+}
+
+@media all and (max-width:1200px) {
+    .diplomas-and-certificates-image-award {
+        display: none;
+    }
+}
+
+@media all and (max-width:992px) {
+    .diplomas-and-certificates {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:576px) {
+    .diplomas-and-certificates-image {
+        display: none;
+    }
+}
+
+.cpe-certificates {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    background-color: #14162B;
+    padding: 30px 5%;
+}
+
+.cpe-certificates-content {
+    flex-basis: 65%;
+}
+
+.cpe-certificates-image {
+    position: relative;
+    top: 65px;
+}
+
+@media all and (max-width:992px) {
+    .cpe-certificates {
+        flex-direction: column;
+    }
+}
+
+@media all and (max-width:576px) {
+    .cpe-certificates-image {
+        display: none;
+    }
+}
+
+.career-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 5%;
+}
+
+.career-center-content {
+    flex-basis: 62%;
+}
+
+.career-center-content-title {
+    margin-top: 0;
+}
+
+.career-center-content p {
+    padding-bottom: 23px;
+}
+
+/* X-Large devices (large desktops, less than 1400px) */
+
+@media all and (max-width: 1400px) {}
+
+/* Large devices (desktops, less than 1200px) */
+
+@media all and (max-width:1200px) {
+    .career-center {
+        flex-direction: column;
+    }
+    .career-center-image {
+        order: 1;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+
+@media all and (max-width: 992px) {
+    .career-center-image {
+        padding-top: 35px;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media all and (max-width:768px) {}
+
+/* X-Small devices (portrait phones, less than 576px) */
+
+@media all and (max-width:576px) {
+    .career-center-image {
+        display: none;
+    }
+    .career-center-content {
+        text-align: center;
+    }
+    .career-center-content-title, .career-center-content p {
+        text-align: left;
+    }
+}
+
+footer {
+    background-color: #2C2C3A;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 35px 5%;
+}
+
+footer h3 {
+    color: #9A5CC2;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 5px 0;
+}
+
+footer i:first-of-type {
+    margin-left: 0;
+}
+
+.footer-column:nth-child(4) {
+    padding-right: 50px;
+}
+
+.social-media-icons i {
+    font-size: 23px;
+    margin: 11px;
+}
+
+@media all and (max-width:1200px) {
+    footer {
+        flex-wrap: wrap;
+    }
+}
+
+.menu-responsive {
+    display: none;
+    font-size: 35px;
+}
+
+@media all and (max-width:1200px) {
+    .menu-responsive {
+        display: block;
+    }
+    header nav ul {
+        display: none;
+    }
+    nav:hover ul {
+        display: block;
+        margin-left: -5px;
+        position: absolute;
+        background: white;
+        width: 100%;
+        left: 0;
+        text-align: center;
+        box-shadow: 0px 10px 7px -10px rgba(0, 0, 0, 0.75);
+        z-index: 1;
+    }
+    .btn-primary {
+        width: max-content;
+        margin: 0 auto 10px auto;
+    }
+}
+
+.diplomas-and-certificates-content-wrapper, .diplomas-and-certificates-content-title {
+    border: 2px solid goldenrod;
+}
+
+.diplomas-and-certificates-content-wrapper {
+    display: inline-block;
+}
+
+.diplomas-and-certificates-content-title {
+    margin: 0;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    padding-right: 20px;
+}
