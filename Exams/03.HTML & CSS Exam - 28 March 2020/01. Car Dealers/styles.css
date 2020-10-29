@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header .car-icon {
+    width: 7%;
+    height: 66px;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: 100;
+}
+
+header .car-icon img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    margin-top: 55px;
+    justify-content: space-between;
+}
+
+.text {
+    flex-basis: 43%;
+}
+
+.text h2 {
+    margin-top: 0;
+}
+
+.image {
+    flex-basis: 50%;
+}
+
+.image img {
+    width: 100%;
+}
+
+article {
+    align-items: center;
+}
+
+.first, .second, .third {
+    display: flex;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+h3 {
+    margin: 15px;
+}
