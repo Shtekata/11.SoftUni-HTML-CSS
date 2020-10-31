@@ -1,0 +1,75 @@
+@media all and (max-width:1000px) {
+    header, footer {
+        font-size: 1.4em;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .pair {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100em;
+        height: 31em;
+    }
+    .planet {
+        margin: 10px;
+        height: 100%;
+    }
+    .planet img {
+        height: 100%;
+    }
+    .news h1 {
+        font-size: 2.5em;
+    }
+    .news ul li {
+        font-size: 16px;
+    }
+    footer nav {
+        flex-direction: column;
+    }
+    .primary footer nav a:nth-child(2n) {
+        border: none;
+    }
+}
+
+@media all and (max-width:851px) {
+    header, footer {
+        font-size: 1.7em;
+    }
+    nav {
+        font-size: 28px;
+    }
+    .planet img {
+        height: 60%;
+    }
+    .pair {
+        width: 100em;
+        height: 60em;
+    }
+    .planet_info h3 {
+        font-size: 45px;
+    }
+    .planet_info p {
+        font-size: 30px;
+    }
+    .news ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .news ul li img {
+        width: 500px;
+        height: 400px;
+    }
+    .news h1 {
+        font-size: 70px;
+    }
+    .news ul li {
+        font-size: 24px;
+    }
+    footer nav {
+        font-size: 30px;
+    }
+}
