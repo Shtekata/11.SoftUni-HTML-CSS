@@ -1,0 +1,50 @@
+@media all and (max-width:768px) {
+    header>.logo a {
+        font-size: 120px;
+    }
+    header>.logo span {
+        font-size: 30px;
+        margin-top: 10px
+    }
+    .wrapper>header h2 {
+        font-size: 50px;
+    }
+    .wrapper>header p {
+        font-size: 20px;
+    }
+    .wrapper>header.special {
+        padding: 6rem 2rem;
+    }
+    .wrapper.style2 header h2 {
+        font-size: 60px;
+    }
+    .gallery {
+        align-items: center;
+        flex-direction: column;
+    }
+    .gallery>* {
+        width: 100%;
+    }
+    .wrapper.style2 {
+        padding: 1rem;
+    }
+    .spotlight {
+        flex-direction: column;
+    }
+    .spotlight>* {
+        width: 100%;
+    }
+    .spotlight .inner {
+        text-align: center;
+        padding: 1rem;
+    }
+    .spotlight .inner h3 {
+        font-size: 35px;
+    }
+    .spotlight p:last-child {
+        font-size: 30px;
+    }
+    footer {
+        font-size: 28px;
+    }
+}

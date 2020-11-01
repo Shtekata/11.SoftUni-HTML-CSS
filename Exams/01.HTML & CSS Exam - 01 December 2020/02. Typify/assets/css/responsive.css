@@ -1,0 +1,47 @@
+@media all and (max-width:600px) {
+    .banner {
+        padding: 3em 0 1em 0;
+    }
+    .banner h2 {
+        width: 90%;
+        font-size: 1.6em;
+    }
+    .banner .button {
+        padding: 0 11em;
+    }
+    .features {
+        flex-direction: column;
+        align-items: center;
+    }
+    .wrapper>.inner {
+        width: auto;
+    }
+    .feature {
+        width: 93%;
+    }
+    header.major {
+        margin-bottom: 1em;
+    }
+    .wrapper {
+        padding: 2em 0 1em 0;
+    }
+    .wrapper>.inner.narrow {
+        width: 30em;
+    }
+    .grid-form {
+        flex-direction: column;
+        align-items: center;
+    }
+    .grid-form .form-control.narrow {
+        width: 100%;
+    }
+    .footer {
+        padding: 1em 0 1em 0;
+    }
+    input[type="submit"] {
+        padding: 0 10.5em;
+    }
+    .footer .copyright {
+        margin: 1em 0 1em 0;
+    }
+}

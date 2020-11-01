@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.logo img {
+    width: 135px;
+}
+
+ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+header {
+    background-color: #234465;
+    color: white;
+}
+
+header, header ul, .part-one, .part-two {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header span {
+    font-size: 13px;
+    background: #FFA000;
+    padding: 6px 12px;
+    border-radius: 13px;
+    font-weight: 600;
+}
+
+.part-two ul {
+    color: #91A1B2;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.part-two button {
+    background: #FFA000;
+    border: none;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 13px;
+    font-weight: 600;
+}
+
+.part-two .btn::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f002';
+    color: #91A1B2;
+    margin: 0 15px;
+}
+
+header ul {
+    margin: 10px 0;
+}
+
+.one {
+    padding: 1em 17em;
+    background-color: white;
+}
+
+.one span {
+    padding: 1em;
+}
+
+.span-one {
+    color: #CB7D00;
+}
+
+.two {
+    z-index: -1;
+    position: relative;
+}
+
+.span-two {
+    color: #234488;
+    font-weight: 600;
+}
+
+.bg-image {
+    background: linear-gradient(rgba(38, 40, 131, 0.3), rgba(34, 22, 117, 0.5)), url(./images/liv-room.jpg);
+    height: 15em;
+    width: auto;
+    filter: blur(8px);
+}
+
+.bg-text {
+    color: white;
+    text-align: center;
+    position: relative;
+    top: -15em;
+}
+
+.bg-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 35px 0 0 0;
+}
+
+.two ul {
+    display: flex;
+    justify-content: center;
+}
+
+.play::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f144';
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.note::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f328';
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.time::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f017';
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.credits::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f19d';
+    color: white;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.two button {
+    background: #FFA000;
+    border: none;
+    padding: 10px 60px;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.three {
+    background-color: #F2F2F2;
+    padding: 3em;
+    position: relative;
+    top: -13em;
+}

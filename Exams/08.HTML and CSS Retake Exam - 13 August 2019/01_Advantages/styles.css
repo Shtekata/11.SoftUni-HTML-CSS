@@ -1,0 +1,65 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+*, *::before, ::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0%;
+}
+
+main {
+    width: 60%;
+    margin: 10em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+main span {
+    color: white;
+    background: #42ABF8;
+    padding: 10px 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    background-color: #F4F5F7;
+    padding: 10px;
+    margin: 1px;
+    font-size: 12px;
+    color: #767A87;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li:first-of-type {
+    border-top-left-radius: 6px;
+}
+
+ul li:last-of-type {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+ul li::after {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 600;
+    content: '\f058';
+    color: #23BE5E;
+    margin-right: 15px;
+    font-size: 17px;
+}
